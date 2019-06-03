@@ -3,40 +3,40 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-h1{
-    color: Blue;
-    position: absolute;
-    top: 20px;
-    left: 43%;
-    font-size: 50px;
-    
+body
+{
+    background-image: url(images/back.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .main
 {
-    background: #ccc;
+    background: #001a00;
     width: 400px;
     height: 175px;
     margin: 150px auto;
     position: relative;
     padding: 30px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .badge
 {
-    background: red;
+    background: #a3c2c2;
     width: 95px;
     padding: 5px 10px;
     position: absolute;
     top: -10px;
     left: 150px;
-    border-radius: 5px;
+    border-radius: 10px;
 
 }
 .clock
 {
-    background:lightblue;
+    background: #b3cccc;
     text-align: center;
     font-size: 70px;
     padding: 10px 10px;
